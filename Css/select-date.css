@@ -1,0 +1,57 @@
+        /* Style personnalisé */
+        .inpt-child-div {
+            position: relative;
+            max-width: 25em;
+        }
+
+        #calendar-container input {
+            width: 25em;
+            /* background: red; */
+            outline: 1.3px solid #585856;
+            border-radius: 0.5em;
+            padding: 1em;
+            border: none;
+        }
+
+        .i-date {
+            /* background: red; */
+            position: absolute;
+            right: 0;
+            top: 0;
+            cursor: pointer;
+            margin: 0.8em;
+            /* margin-right: -3em; */
+        }
+
+        /* 
+        #date-picker {
+            cursor: pointer;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            width: 100%;
+            text-align: center;
+            background: #fff;
+        } */
+
+        /* Style pour le pop-up select */
+        .pop-select {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: white;
+            border: 1px solid #ddd;
+            z-index: 10;
+        }
+
+        .pop-select.visible {
+            display: none;
+        }
+
+        .pop-select select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }

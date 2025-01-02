@@ -80,6 +80,10 @@ input {
     color: #6b6b6b;
 }
 
+button:disabled {
+    cursor: not-allowed;
+}
+
 input:read-only {
     cursor: pointer;
 }

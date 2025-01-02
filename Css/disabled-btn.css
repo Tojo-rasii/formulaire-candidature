@@ -1,0 +1,13 @@
+.disabled-button {
+    background-color: #ccc;
+    color: #666;
+    border: 1px solid #999;
+    cursor: not-allowed !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.disabled-button:disabled {
+    pointer-events: none;
+}

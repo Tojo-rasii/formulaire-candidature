@@ -1,0 +1,31 @@
+.inpt-child-div {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.dropdown-item:hover {
+    background: #f0f0f0;
+}
