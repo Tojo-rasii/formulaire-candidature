@@ -110,6 +110,10 @@
         gap: 2.5em;
     }
 
+    /* .label-title {
+        text-wrap: wrap !important;
+    } */
+
     .row-garant picture:nth-child(2) {
         /* background: green; */
         width: 100% !important;

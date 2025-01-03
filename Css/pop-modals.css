@@ -140,7 +140,13 @@ body.no-scroll {
     justify-content: space-between !important;
 }
 
-
+.garant {
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 2.8em;
+    width: 100% !important;
+}
 
 .row-garant picture:nth-child(2) {
     /* background: green; */
