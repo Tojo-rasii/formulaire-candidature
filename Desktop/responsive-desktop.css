@@ -1,15 +1,9 @@
 @media screen and (max-width: 1278px) {
 
-    .picture-table figure {
-        width: 100%;
-        /* background: green !important; */
-        height: auto !important;
-        /* padding: 1em; */
-        overflow-x: auto;
-        /* overflow-y: hidden; */
-        /* height: 2em;
-        max-height: 2em !important; */
-        /* overflow-x: auto; */
+    #modale-apercu section {
+        width: 95%;
+        margin: 0 auto;
+
     }
 
 
@@ -22,7 +16,18 @@
     #main {
         margin: auto;
         width: 96em !important;
+        /* background: red !important; */
     }
 
+
+
+    #modale-apercu section {
+        margin: auto;
+        width: 85em !important;
+        margin: 0 auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        /* background: red; */
+    }
 
 }

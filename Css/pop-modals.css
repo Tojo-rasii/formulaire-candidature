@@ -62,7 +62,7 @@ body.no-scroll {
 
 .article-form-pop form label {
     /* flex: 1 1 calc(33.33% - 1em); */
-    /* background: silver; */
+    /* background: red; */
     width: 50%;
     /* width: 32.2%; */
     position: relative;
@@ -92,6 +92,7 @@ body.no-scroll {
     z-index: 999999 !important;
     margin-left: 1em;
     padding: 0 0.5em;
+    text-wrap: nowrap;
     font-size: 1.1em;
     font-weight: 600 !important;
     position: absolute;

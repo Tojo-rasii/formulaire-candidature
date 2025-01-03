@@ -1,11 +1,11 @@
         /* Style personnalisé */
         .inpt-child-div {
             position: relative;
-            max-width: 25em;
+            max-width: 27em;
         }
 
         #calendar-container input {
-            width: 25em;
+            width: 100%;
             /* background: red; */
             outline: 1.3px solid #585856;
             border-radius: 0.5em;
