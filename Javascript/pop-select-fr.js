@@ -41,3 +41,7 @@ document.getElementById("date-select").addEventListener("change", function () {
     // Ferme le pop-up select
     popSelect.classList.remove("visible");
 });
+
+document.getElementById("date-picker").addEventListener("keydown", function (e) {
+    e.preventDefault(); // Empêche toute saisie au clavier
+});
