@@ -1,8 +1,10 @@
 const labelFor = document.querySelector('label[for="revenu-mensuel"] ');
-let garant = 1;
+const rowGarant = document.querySelector('.row-garant ');
+let garant = 0;
 
 
-    if (garant < 1) {
-        labelFor.style.display = 'none';
+if (garant < 1) {
+    labelFor.style.display = 'none';
+    rowGarant.style.flexWrap = 'nowrap';
 
-    }
+}

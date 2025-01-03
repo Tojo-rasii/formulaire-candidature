@@ -134,16 +134,24 @@ body.no-scroll {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    gap: 1em;
     row-gap: 3em;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: row !important;
+    justify-content: space-between !important;
 }
 
-.row-garant picture {
+
+
+.row-garant picture:nth-child(2) {
     /* background: green; */
+    width: 50% !important;
+
+
 }
 
 .row-garant picture label {
-   flex: 1;
+    /* background: green; */
+    flex: 1;
+
 
 }

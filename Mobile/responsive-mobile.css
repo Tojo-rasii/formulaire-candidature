@@ -104,6 +104,19 @@
         /* background: green; */
     }
 
+    .row-garant {
+        display: flex;
+        flex-direction: column !important;
+        gap: 2.5em;
+    }
+
+    .row-garant picture:nth-child(2) {
+        /* background: green; */
+        width: 100% !important;
+
+
+    }
+
     #calendar-container input {
         width: 100%;
     }
