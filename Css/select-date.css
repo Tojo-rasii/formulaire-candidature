@@ -6,7 +6,7 @@
 
         #calendar-container input {
             width: 100%;
-            /* background: red; */
+            background: #ffff !important;
             outline: 1.3px solid #585856;
             border-radius: 0.5em;
             padding: 1em;
