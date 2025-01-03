@@ -1,6 +1,6 @@
 const labelFor = document.querySelector('label[for="revenu-mensuel"] ');
 const rowGarant = document.querySelector('.row-garant ');
-let garant = 0;
+let garant = 3;
 
 
 if (garant < 1) {
