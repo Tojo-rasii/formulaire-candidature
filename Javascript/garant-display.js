@@ -1,8 +1,8 @@
-const garant = document.querySelector('.garant');
+const garante = document.querySelector('.garant');
 let garants = 2;
 
 
 if (garants < 1) {
-    garant.style.display = 'none';
+    garante.style.display = 'none';
 
 }
