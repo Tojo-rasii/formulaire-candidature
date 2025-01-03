@@ -166,52 +166,53 @@
                             <picture class="head-apercu">
                                 <h2 class="title-doc text-uppercase">Garant</h2>
                             </picture>
-
-                            <picture>
-                                <label>
-                                    <p class="label-title">Nom <span class="red">*</span></p>
-                                    <div class="inpt-child-div">
-                                        <input type="text" class="inpt-child" placeholder="Nom du garant ">
-                                    </div>
-                                </label>
-                                <label>
-                                    <p class="label-title">Lien avec le candidat <span class="red">*</span></p>
-                                    <div class="inpt-child-div">
-                                        <input type="text" id="relation-input" class="inpt-child"
-                                            placeholder="Lien du garant avec le candidat" readonly>
-                                        <i class="arrow-idown">
-                                            <svg width="16" height="11" viewBox="0 0 16 11" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M6.98486 9.94878L0.344238 3.16835C-0.114746 2.69971 -0.114746 1.94189 0.344238 1.47823L1.44775 0.351485C1.90674 -0.117162 2.64893 -0.117162 3.10303 0.351485L7.81006 5.15761L12.5171 0.351485C12.9761 -0.117162 13.7183 -0.117162 14.1724 0.351485L15.2759 1.47823C15.7349 1.94688 15.7349 2.70469 15.2759 3.16835L8.63525 9.94878C8.18604 10.4174 7.44385 10.4174 6.98486 9.94878Z"
-                                                    fill="#585856" />
-                                            </svg>
-                                        </i>
-                                        <div id="relation-dropdown" class="dropdown hidden">
-                                            <div class="dropdown-item">Parent</div>
-                                            <div class="dropdown-item">Ami</div>
-                                            <div class="dropdown-item">Collègue</div>
-                                            <div class="dropdown-item">Conjoint(e)</div>
-                                            <div class="dropdown-item">Autre</div>
+                            <div class="row-garant">
+                                <picture>
+                                    <label>
+                                        <p class="label-title">Nom <span class="red">*</span></p>
+                                        <div class="inpt-child-div">
+                                            <input type="text" class="inpt-child" placeholder="Nom du garant ">
                                         </div>
-                                    </div>
-                                </label>
+                                    </label>
+                                    <label>
+                                        <p class="label-title">Lien avec le candidat <span class="red">*</span></p>
+                                        <div class="inpt-child-div">
+                                            <input type="text" id="relation-input" class="inpt-child"
+                                                placeholder="Lien du garant avec le candidat" readonly>
+                                            <i class="arrow-idown">
+                                                <svg width="16" height="11" viewBox="0 0 16 11" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M6.98486 9.94878L0.344238 3.16835C-0.114746 2.69971 -0.114746 1.94189 0.344238 1.47823L1.44775 0.351485C1.90674 -0.117162 2.64893 -0.117162 3.10303 0.351485L7.81006 5.15761L12.5171 0.351485C12.9761 -0.117162 13.7183 -0.117162 14.1724 0.351485L15.2759 1.47823C15.7349 1.94688 15.7349 2.70469 15.2759 3.16835L8.63525 9.94878C8.18604 10.4174 7.44385 10.4174 6.98486 9.94878Z"
+                                                        fill="#585856" />
+                                                </svg>
+                                            </i>
+                                            <div id="relation-dropdown" class="dropdown hidden">
+                                                <div class="dropdown-item">Parent</div>
+                                                <div class="dropdown-item">Ami</div>
+                                                <div class="dropdown-item">Collègue</div>
+                                                <div class="dropdown-item">Conjoint(e)</div>
+                                                <div class="dropdown-item">Autre</div>
+                                            </div>
+                                        </div>
+                                    </label>
 
-                                <label for="revenu-mensuel">
-                                    <p class="label-title">Revenu Mensuel <span class="red">*</span></p>
-                                    <div class="inpt-child-div">
-                                        <input type="text" class="inpt-child" placeholder="Revenu mensuel ">
-                                    </div>
-                                </label>
-                            </picture>
-                            <picture class="picture-last">
-                                <label>
-                                    <p class="label-title">Téléphone <span class="red">*</span></p>
-                                    <div class="inpt-child-div">
-                                        <input type="number" class="inpt-child" placeholder="Numero de téléphone ">
-                                    </div>
-                                </label>
-                            </picture>
+                                    <label for="revenu-mensuel">
+                                        <p class="label-title">Revenu Mensuel <span class="red">*</span></p>
+                                        <div class="inpt-child-div">
+                                            <input type="text" class="inpt-child" placeholder="Revenu mensuel ">
+                                        </div>
+                                    </label>
+                                </picture>
+                                <picture class="picture-last">
+                                    <label>
+                                        <p class="label-title">Téléphone <span class="red">*</span></p>
+                                        <div class="inpt-child-div">
+                                            <input type="number" class="inpt-child" placeholder="Numero de téléphone ">
+                                        </div>
+                                    </label>
+                                </picture>
+                            </div>
                             <picture class="btn-apercu">
                                 <button disabled>Sauvegarder</button>
                                 <span class="btn-blue" id="next">Suivant</span>

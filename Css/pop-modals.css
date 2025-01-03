@@ -13,9 +13,11 @@ body.no-scroll {
     left: 0;
     display: block;
 }
-.modal-hr2{
+
+.modal-hr2 {
     visibility: hidden;
 }
+
 .row-text {
     display: flex;
     flex-direction: row;
@@ -125,4 +127,23 @@ body.no-scroll {
 
 .red {
     color: rgb(206, 22, 22);
+}
+
+.row-garant {
+    /* background: red; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 3em;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row-garant picture {
+    /* background: green; */
+}
+
+.row-garant picture label {
+   flex: 1;
+
 }
