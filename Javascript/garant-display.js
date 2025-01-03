@@ -1,8 +1,8 @@
-const rowGarant = document.querySelector('.row-garant ');
-let garant = 3;
+const garant = document.querySelector('.garant');
+let garants = 2;
 
 
-if (garant < 1) {
-    rowGarant.style.flexWrap = 'nowrap';
+if (garants < 1) {
+    garant.style.display = 'none';
 
 }
