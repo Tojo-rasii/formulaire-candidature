@@ -13,7 +13,9 @@ body.no-scroll {
     left: 0;
     display: block;
 }
-
+.modal-hr2{
+    visibility: hidden;
+}
 .row-text {
     display: flex;
     flex-direction: row;

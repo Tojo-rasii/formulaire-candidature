@@ -1,20 +1,24 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const form = document.querySelector("form");
-    const saveButton = document.getElementById("save-button");
-    let initialFormData = new FormData(form);
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('.article-form-pop form');
+    const inputs = form.querySelectorAll('.inpt-child');
+    const saveButton = form.querySelector('button');
 
-    const checkForChanges = () => {
-        const currentFormData = new FormData(form);
-        for (let [key, value] of currentFormData.entries()) {
-            if (value !== initialFormData.get(key)) {
-                saveButton.disabled = false;
-                saveButton.classList.remove("disabled-button");
-                return;
+    const checkInputs = () => {
+        let allFilled = true;
+
+        inputs.forEach(input => {
+            if (input.value.trim() === '') {
+                allFilled = false;
             }
-        }
-        saveButton.disabled = true;
-        saveButton.classList.add("disabled-button");
+        });
+
+        saveButton.disabled = !allFilled;
     };
 
-    form.addEventListener("input", checkForChanges);
+    inputs.forEach(input => {
+        input.addEventListener('input', checkInputs);
+    });
+
+    // Initial check in case some fields are pre-filled
+    checkInputs();
 });
